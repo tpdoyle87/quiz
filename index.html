@@ -1,26 +1,30 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="stylesheets/styles.css">
   <title>Add Employee</title>
 </head>
 <body>
+  <div class="heading">
+    <h1>Add a New Employee</h1>
+  </div>
   <div class="emForm">
     <form id="my-form" action="http://www.fakesitetotest.com" method="post" >
       <label>Employee Name: </label>
-      <input type="text" name="employeeName"><br>
+      <input class="inputs" type="text" name="employeeName"><br>
       <label>Employee Number: </label>
-      <input type="text" name="employeeNumber"><br>
+      <input class="inputs" type="text" name="employeeNumber"><br>
       <label>Phone Number: </label>
-      <input type="tel" placeholder="123-456-7890" id="phone" name="phone"
+      <input class="inputs" type="tel" placeholder="123-456-7890" id="phone" name="phone"
       pattern="[0-9]{10}" required><br>
       <label>Address: </label>
-      <input type="text" name="address"><br>
+      <input class="inputs" type="text" name="address"><br>
       <label>City: </label>
-      <input type="text" name="city"><br>
+      <input class="inputs" type="text" name="city"><br>
       <label for="state">State: </label>
-      <select class='states' name="state">
+      <select class='inputs' name="state">
         <option value="AL">Alabama</option>
         <option value="AK">Alaska</option>
         <option value="AZ">Arizona</option>
@@ -74,20 +78,12 @@
         <option value="WY">Wyoming</option>
       </select><br>
       <label>Zip: </label>
-      <input type="text" name="zip"><br>
+      <input class="inputs" type="text" name="zip"><br>
       <label>Current Employee: </label>
-      <input type="checkbox" name="current">
-      <input id="send" type="submit" class="btn">
+      <input class="inputs" type="checkbox" name="current">
+      <input id="send"type="submit" value="Add" class="inputs btn">
     </form>
   </div>
-  <div id="demo">
-    <form id="that">
-      <p><input name='thisName' type="text"></p>
-      <p><input type="submit" id="hello"></p>
-    </form>
-
-  </div>
-
-<script type='text/javascript' src='javascript/scripts.js'></script>
+  <script type='text/javascript' src='javascript/scripts.js'></script>
 </body>
 </html>

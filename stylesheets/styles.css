@@ -2,27 +2,33 @@ body {
   box-sizing: border-box;
 }
 
-form {
-  height: 160px;
-  border: 1px solid rgba(230, 230, 230, .8);
-  margin: auto;
-}
 label {
-    display: inline-block;
-    float: left;
-    clear: left;
-    width: 135px;
-    text-align: right;
-}
-input {
   display: inline-block;
   float: left;
-  border: 1px solid lightgray;
-  border-radius: 3px;
+  clear: left;
+  width: 165px;
+  font-size: 15px;
+  text-align: right;
+  margin-top: 5px;
+  font-family: 'Montserrat', san-serif;
 }
 
-.states {
+h1{
+  width: 300px;
+  margin: auto;
+  font-family: 'Oswald', san-serif;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+.inputs {
+  display: inline-block;
   float: left;
+  margin: 5px 0px 0px 5px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  margin: 8px 0px 0px 5px;
+
 }
 
 .emForm {
@@ -31,5 +37,11 @@ input {
 }
 
 .btn {
-  width: 260px;
+  width: 263px;
+  background-color: #007cc4;
+  color: white;
+  box-shadow: 1px 2px 4px lightgray;
+  padding: 10px 0px 10px 0px;
+  font-size: 16px;
+  margin-left: 35px;
 }
