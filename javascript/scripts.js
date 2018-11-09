@@ -7,11 +7,11 @@ $("#my-form").submit(function(event) {
   })
   const post_url = $(this).attr("action");
   const request_method = $(this).attr("method");
-  console.log(data)
+  console.log(JSON.stringify(data))
   $.ajax({
     url : post_url,
     type: request_method,
-    data : data
+    data : JSON.stringify(data)
   }).done(function(response){ //
     $("#server-results").html(response);
   });

@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 label {
@@ -11,6 +12,9 @@ label {
   text-align: right;
   margin-top: 5px;
   font-family: 'Montserrat', san-serif;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px gray;
 }
 
 h1{
@@ -19,6 +23,8 @@ h1{
   font-family: 'Oswald', san-serif;
   letter-spacing: 1px;
   text-decoration: underline;
+  color: white;
+  text-shadow: 1px 1px 3px gray;
 }
 .banner {
   height: 55vh;
@@ -34,20 +40,27 @@ h1{
   border: 1px solid lightgray;
   border-radius: 3px;
   margin: 8px 0px 0px 5px;
-
+  color: whites;
 }
 
 .emForm {
   width: 375;
+  height: 45vh;
   margin: auto;
+
+}
+
+.wrapper {
+    background-color: #93bcff
 }
 
 .btn {
   width: 263px;
   background-color: #007cc4;
   color: white;
-  box-shadow: 1px 2px 4px lightgray;
+  box-shadow: 1px 2px 4px #007cc1;
   padding: 10px 0px 10px 0px;
   font-size: 16px;
   margin-left: 35px;
+  border: 1px solid #007cc4;
 }
