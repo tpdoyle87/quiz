@@ -52,6 +52,7 @@ h1{
 .wrapper {
     background-color: #a8bcdb;
     height: 45vh;
+    padding-bottom: 80px;
 }
 
 .btn {
