@@ -45,20 +45,20 @@ h1{
 
 .emForm {
   width: 375;
-  height: 45vh;
   margin: auto;
 
 }
 
 .wrapper {
-    background-color: #93bcff
+    background-color: #93bcff;
+    height: 45vh;
 }
 
 .btn {
   width: 263px;
   background-color: #007cc4;
   color: white;
-  box-shadow: 1px 2px 4px #007cc1;
+  box-shadow: 1px 2px 2px #007cc1;
   padding: 10px 0px 10px 0px;
   font-size: 16px;
   margin-left: 35px;

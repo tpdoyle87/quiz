@@ -7,6 +7,7 @@ $("#my-form").submit(function(event) {
   })
   const post_url = $(this).attr("action");
   const request_method = $(this).attr("method");
+  console.log("this is here to see the strinified data")
   console.log(JSON.stringify(data))
   $.ajax({
     url : post_url,
