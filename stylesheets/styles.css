@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+}
+
+form {
+  height: 160px;
+  border: 1px solid rgba(230, 230, 230, .8);
+  margin: auto;
+}
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 135px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.states {
+  float: left;
+}
+
+.emForm {
+  width: 375;
+  margin: auto;
+}
+
+.btn {
+  width: 260px;
+}
