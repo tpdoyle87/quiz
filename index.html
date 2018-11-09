@@ -10,27 +10,29 @@
   <body>
     <div class="container">
       <div class="banner" style="background-image: linear-gradient(rgba(0, 0, 0, .2) 60%, rgba(168, 188, 219, 1)), url(images/work.jpg) ">
+        <h1>New Employee Managment</h1>
+        <p>Quickly add new employee's</p>
       </div>
       <div class="wrapper">
         <div class="bind">
           <div class="heading">
-            <h1>New Employee</h1>
+            <h2>New Employee</h2>
           </div>
           <div class="emForm">
             <form id="my-form" action="https://www.reqres.in/api/users" method="POST">
-              <label>Employee Name: </label>
-              <input class="inputs" type="text" name="employeeName"><br>
+              <label>*Employee Name: </label>
+              <input class="inputs" type="text" name="employeeName" required><br>
               <label>Employee Number: </label>
               <input class="inputs" type="text" name="employeeNumber"><br>
-              <label>Phone Number: </label>
+              <label>*Phone Number: </label>
               <input class="inputs" type="tel" placeholder="123-456-7890" id="phone" name="phone"
               pattern="[0-9]{10}" required><br>
-              <label>Address: </label>
-              <input class="inputs" type="text" name="address"><br>
-              <label>City: </label>
-              <input class="inputs" type="text" name="city"><br>
-              <label for="state">State: </label>
-              <select class='inputs' name="state">
+              <label>*Address: </label>
+              <input class="inputs" type="text" name="address" required><br>
+              <label>*City: </label>
+              <input class="inputs" type="text" name="city" required><br>
+              <label for="state">*State: </label>
+              <select class='inputs' name="state" required>
                 <option value="AL">Alabama</option>
                 <option value="AK">Alaska</option>
                 <option value="AZ">Arizona</option>
@@ -83,10 +85,11 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
               </select><br>
-            <label>Zip: </label>
-            <input class="inputs" type="text" name="zip"><br>
+            <label>*Zip: </label>
+            <input class="inputs" type="text" name="zip" required><br>
             <label>Current Employee: </label>
             <input class="inputs" type="checkbox" name="current">
+            <label>* is required</label>
             <input id="send" type="submit" value="Add Employee" class="inputs btn">
           </form>
           </div>
