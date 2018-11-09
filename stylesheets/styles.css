@@ -22,7 +22,7 @@ h1{
   margin: auto;
   font-family: 'Oswald', san-serif;
   letter-spacing: 1px;
-  text-decoration: underline;
+  padding: 10px;
   color: white;
   text-shadow: 1px 1px 3px gray;
 }
@@ -50,7 +50,7 @@ h1{
 }
 
 .wrapper {
-    background-color: #93bcff;
+    background-color: #a8bcdb;
     height: 45vh;
 }
 

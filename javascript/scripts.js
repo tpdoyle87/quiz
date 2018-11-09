@@ -7,14 +7,13 @@ $("#my-form").submit(function(event) {
   })
   const post_url = $(this).attr("action");
   const request_method = $(this).attr("method");
-  console.log("this is here to see the strinified data")
-  console.log(JSON.stringify(data))
   $.ajax({
     url : post_url,
     type: request_method,
-    data : JSON.stringify(data)
-  }).done(function(response){ //
-    $("#server-results").html(response);
-  });
+    data : JSON.stringify(data),
+    success: function(response) {
+      alert("Successfully saved")
+    }
+  })
   $("#my-form").trigger("reset")
-})
+});
