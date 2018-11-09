@@ -15,10 +15,5 @@ $("#my-form").submit(function(event) {
   }).done(function(response){ //
     $("#server-results").html(response);
   });
+  $("#my-form").trigger("reset")
 })
-
-var formdata = $("#myform").serializeArray();
-var data = {};
-$(formdata ).each(function(index, obj){
-    data[obj.name] = obj.value;
-});

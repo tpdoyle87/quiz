@@ -20,7 +20,13 @@ h1{
   letter-spacing: 1px;
   text-decoration: underline;
 }
+.banner {
+  height: 55vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
+}
 .inputs {
   display: inline-block;
   float: left;
