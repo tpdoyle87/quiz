@@ -18,6 +18,7 @@ label {
 }
 
 h1{
+  text-align: center;
   width: 300px;
   margin: auto;
   font-family: 'Oswald', san-serif;
