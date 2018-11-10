@@ -17,7 +17,22 @@ label {
   text-shadow: 1px 1px 3px gray;
 }
 
-h1{
+p {
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px gray;
+  font-family: 'Montserrat', san-serif;
+  font-weight: bold;
+
+}
+
+h1 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 5px gray;
+  font-family: 'Oswald', san-serif;
+}
+
+h2 {
+  text-align: center;
   width: 300px;
   margin: auto;
   font-family: 'Oswald', san-serif;
@@ -26,13 +41,29 @@ h1{
   color: white;
   text-shadow: 1px 1px 3px gray;
 }
+
+.container {
+  height: 100vh;
+}
+
 .banner {
-  height: 55vh;
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 5px;
 
 }
+
+.bind {
+  padding-left: 0px;
+  padding-right: -25px;
+}
+
 .inputs {
   display: inline-block;
   float: left;
@@ -40,18 +71,23 @@ h1{
   border: 1px solid lightgray;
   border-radius: 3px;
   margin: 8px 0px 0px 5px;
-  color: whites;
 }
 
+
 .emForm {
-  width: 375;
+  width: 375px;
   margin: auto;
 
 }
 
 .wrapper {
+    height: 50vh;
+    max-width: 100%;
+    text-align: center;
     background-color: #a8bcdb;
-    height: 45vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px 0 0 -25px;
 }
 
 .btn {
@@ -61,6 +97,6 @@ h1{
   box-shadow: 1px 2px 2px #007cc1;
   padding: 10px 0px 10px 0px;
   font-size: 16px;
-  margin-left: 35px;
+  margin: 20px 0px 20px 35px;
   border: 1px solid #007cc4;
 }
