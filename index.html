@@ -3,8 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <title>Add Employee</title>
   </head>
@@ -26,8 +24,8 @@
               <label>Employee Number: </label>
               <input class="inputs" type="text" name="employeeNumber"><br>
               <label>*Phone Number: </label>
-              <input class="inputs" type="tel" placeholder="123-456-7890" id="phone" name="phone"
-              pattern="[0-9]{10}" required><br>
+              <input class="inputs" type="tel" placeholder="(123) 456-7890" id="phone" name="phone"
+              required><br>
               <label>*Address: </label>
               <input class="inputs" type="text" name="address" required><br>
               <label>*City: </label>
@@ -86,17 +84,19 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
               </select><br>
-            <label>*Zip: </label>
-            <input class="inputs" type="text" name="zip" required><br>
-            <label>Current Employee: </label>
-            <input class="inputs" type="checkbox" name="current">
-            <label>* is required</label>
-            <input id="send" type="submit" value="Add Employee" class="inputs btn">
-          </form>
+              <label>*Zip: </label>
+              <input class="inputs" type="text" name="zip" required><br>
+              <label>Current Employee: </label>
+              <input class="inputs" type="checkbox" name="current">
+              <label>* is required</label>
+              <input id="send" type="submit" value="Add Employee" class="inputs btn">
+            </form>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
     <script type='text/javascript' src='javascript/inputmask.js'></script>
     <script type='text/javascript' src='javascript/scripts.js'></script>
   </body>

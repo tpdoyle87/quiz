@@ -13,6 +13,7 @@ $("#my-form").submit(function(event) {
     data : JSON.stringify(data),
     success: function(response) {
       alert("Successfully saved")
+      console.log(response)
     }
   })
   $("#my-form").trigger("reset")
