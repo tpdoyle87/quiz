@@ -74,20 +74,20 @@ h2 {
 }
 
 
-.emForm {
+.employeeForm {
   width: 375px;
   margin: auto;
 
 }
 
 .wrapper {
-    height: 50vh;
-    max-width: 100%;
-    text-align: center;
-    background-color: #a8bcdb;
-    overflow-x: hidden;
-    overflow-y: auto;
-    padding: 20px 0 0 -25px;
+  height: 50vh;
+  max-width: 100%;
+  text-align: center;
+  background-color: #a8bcdb;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 20px 0 0 -25px;
 }
 
 .btn {

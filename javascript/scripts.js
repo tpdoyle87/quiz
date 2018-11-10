@@ -1,12 +1,14 @@
 $("#my-form").submit(function(event) {
   event.preventDefault();
-  let form_data = $(this).serializeArray();
+  const form_data = $(this).serializeArray();
   const data = {}
+ // changes the data into a form we want
   $(form_data).each(function(index, obj){
     data[obj.name] = obj.value;
   })
   const post_url = $(this).attr("action");
   const request_method = $(this).attr("method");
+  // ajax request to the server passing our data in JSON format
   $.ajax({
     url : post_url,
     type: request_method,
@@ -14,6 +16,7 @@ $("#my-form").submit(function(event) {
     success: function(response) {
       alert("Successfully saved")
     }
-  })
-  $("#my-form").trigger("reset")
+  });
+  // blanks the form
+  $("#my-form").trigger("reset");
 });
