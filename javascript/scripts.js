@@ -16,7 +16,10 @@ $("#my-form").submit(function(event) {
     success: function(response) {
       alert("Successfully saved")
     }
-  });
+  })
   // blanks the form
   $("#my-form").trigger("reset");
 });
+
+// Formats the phone number and checks the number of digits
+$("#phone").mask('(999) 999-9999');
