@@ -1,4 +1,4 @@
-This page was build using HTML, CSS, and jQuery. It has a basic form with employee information fields. When the form is
+This page was built using HTML, CSS, and jQuery. It has a basic form with employee information fields. When the form is
 submitted it makes a ajax request. When it recieves a successful response it will display an alert to the user letting them 
 know that the information has been saved.
 
