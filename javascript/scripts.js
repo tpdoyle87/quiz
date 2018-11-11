@@ -1,3 +1,4 @@
+// form submission
 $("#my-form").submit(function(event) {
   event.preventDefault();
   const form_data = $(this).serializeArray();
@@ -22,4 +23,7 @@ $("#my-form").submit(function(event) {
 });
 
 // Formats the phone number and checks the number of digits
+
 $("#phone").mask('(999) 999-9999');
+
+
