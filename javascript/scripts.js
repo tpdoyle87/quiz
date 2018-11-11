@@ -2,7 +2,7 @@
 $("#my-form").submit(function(event) {
   event.preventDefault();
   const form_data = $(this).serializeArray();
-  const data = {}
+  const data = {};
  // changes the data into a form we want
   $(form_data).each(function(index, obj){
     data[obj.name] = obj.value;
